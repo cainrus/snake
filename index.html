@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snake, The Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel='stylesheet' href='css/style.css' />
+  </head>
+  <body>
+    <div id="container"></div>
+    <p>Controls: Up/Down/Left/Right</p>
+    <table style="display:none;" id="options">
+      <tr>
+        <td>
+          <label for="autostart">Auto start&nbsp;</label>
+        </td>
+        <td>
+          <input type="checkbox" id="autostart">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="speed">Speed&nbsp;</label>
+        </td>
+        <td>
+          <input type="text" id="speed" value="2">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="food_at_once">Food at once&nbsp;</label>
+        </td>
+        <td>
+          <input type="text" id="food_at_once" value="1">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="map_height">Map height&nbsp;</label>
+        </td>
+        <td>
+          <input type="text" id="map_height" value="50">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="map_width">Map width&nbsp;</label>
+        </td>
+        <td>
+          <input type="text" id="map_width" value="50">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="bg_color">Background&nbsp;</label>
+        </td>
+        <td>
+          <input type="text" id="bg_color" value="#2CA2FF">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="cell_color">Cell color&nbsp;</label>
+        </td>
+        <td>
+          <input type="text" id="cell_color" value="#fff">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="text_color">Text color&nbsp;</label>
+        </td>
+        <td>
+          <input type="text" id="text_color" value="#fff">
+        </td>
+      </tr>
+    </table>
+
+    <button id="startButton">Start</button>
+    <button id="optionsButton">Options</button>
+
+    <script src="js/score.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/food.js"></script>
+    <script src="js/snake.js"></script>
+    <script src="js/controls.js"></script>
+    <script src="js/game.js"></script>
+    <script>
+
+    </script>
+  </body>
+</html>
